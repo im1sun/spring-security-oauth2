@@ -1,6 +1,6 @@
 package nextstep.app;
 
-import io.restassured.RestAssured;
+//import io.restassured.RestAssured;
 import org.junit.jupiter.api.BeforeEach;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.server.LocalServerPort;
@@ -14,6 +14,6 @@ public class AcceptanceTest {
 
     @BeforeEach
     public void setUp() {
-        RestAssured.port = port;
+//        RestAssured.port = port;
     }
 }
