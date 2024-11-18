@@ -12,7 +12,6 @@ public class AcceptanceTest {
     @LocalServerPort
     int port;
 
-
     @BeforeEach
     public void setUp() {
         RestAssured.port = port;
